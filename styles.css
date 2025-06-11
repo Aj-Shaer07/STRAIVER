@@ -1,5 +1,5 @@
 h1 {
-    color: #00ffa2;
+    color: #0f713b;
     font-size: 50px;
     font-family: "Garamond", serif;
     font-weight: 500;
@@ -7,20 +7,20 @@ h1 {
 
 .about {
     margin: 20px;
-    border: 2px solid #81f8fc;
+    border: 2px solid #317932;
     border-radius: 20%;
     padding: 40px;
 }
 
 h2 {
-    color: #00ffa2;
+    color: #7d1d2c;
     font-size: 35px;
     font-family: serif;
     font-weight: 100;
 }
 
 body {
-    color: #85ffff;
+    color: #277531;
     padding-left: 10px;
 }
 
@@ -31,7 +31,7 @@ body {
     object-fit: cover; 
     float: right; 
     margin-left: 40px;
-    border: 2px solid #81f8fc;
+    border: 2px solid #612020;
     bottom: 50px; 
     position: relative;
 }
@@ -45,7 +45,7 @@ body {
     margin-right: auto;
     padding: 10px;
     border-radius: 40%;
-    background-color: rgb(180, 128, 245);
+    background-color: rgb(238, 246, 168);
     width: fit-content;
 }
 
