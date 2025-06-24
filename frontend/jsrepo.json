@@ -1,0 +1,17 @@
+{
+	"$schema": "https://unpkg.com/jsrepo@2.4.1/schemas/project-config.json",
+	"repos": [
+		"https://reactbits.dev/ts/tailwind"
+	],
+	"includeTests": false,
+	"includeDocs": false,
+	"watermark": true,
+	"configFiles": {},
+	"paths": {
+		"*": "./src/blocks",
+		"Animations": "./src/blocks/Animations",
+		"Backgrounds": "./src/blocks/Backgrounds",
+		"Components": "./src/blocks/Components",
+		"TextAnimations": "./src/blocks/TextAnimations"
+	}
+}
