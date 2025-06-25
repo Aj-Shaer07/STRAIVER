@@ -25,7 +25,16 @@ const ContactForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Submitted:", formData);
-    alert("Message sent!");
+    
+    // Show success message
+    alert("Message sent! You will be redirected to the Developer's portfolio website.");
+    
+    // Submit the form data (you might want to add actual form submission logic here)
+    
+    // Redirect after a short delay
+    setTimeout(() => {
+      window.open("https://aj-shaer07.github.io/STRAIVER/", "_blank");
+    }, 1000);
   };
 
   return (
@@ -68,7 +77,7 @@ const ContactForm: React.FC = () => {
           ></textarea>
 
           <Button>
-            Send
+            Submit QUERY
           </Button>
         </form>
       </ShineBorder>
