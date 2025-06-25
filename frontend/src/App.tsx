@@ -7,17 +7,18 @@ import ContactMePage from "./components/contact_mepage.tsx";
 
 function App() {
   return (
-    <Router>
-      <SmoothCursor />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/problems" element={<ProblemsPage />} />
-        <Route path="/problems/:difficulty" element={<ProblemsPage />} />
-        <Route path="/contact-us" element={<ContactMePage/>} />
-        {/* Add more routes as needed */}
-      </Routes>
-    </Router>
+
+      <Router>
+        <SmoothCursor />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/problems" element={<ProblemsPage />} />
+          <Route path="/problems/:difficulty" element={<ProblemsPage />} />
+          <Route path="/contact-us" element={<ContactMePage />} />
+        </Routes>
+      </Router>
+
   );
 }
 

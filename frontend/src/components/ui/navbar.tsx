@@ -11,7 +11,6 @@ import {
 import { LoginOrProfileButton } from "./login"
 import GlareHover from "../../blocks/Animations/GlareHover/GlareHover"
 import { Link } from "react-router-dom";
-import GButton from "./generatebutton.tsx";
 
 
 export function Navbar() {
@@ -63,7 +62,6 @@ export function Navbar() {
         <NavigationMenuViewport />
           </NavigationMenu>
         </div>
-        <GButton />
         <LoginOrProfileButton />
       </nav>
     </>
